@@ -15,7 +15,7 @@
     5. Media Queries
 ////////////////////////*/
 
-:root{
+:root {
     /* Colors */
     --color-purple: #5722CD;
     --color-blue: #4845E4;
@@ -26,18 +26,17 @@
     --color-gray: #7A7A7A;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Merriweather', sans-serif;
     font-size: 16px;
     color: var(--color-black);
 }
-
 
 
 /* ------------------------------- 1. Global Styles -------------------------------- */
@@ -47,7 +46,7 @@ body{
 /* ------------------------------- 3. Layout --------------------------------------- */
 
 /* --------------- 3.1 Reusables ----------------------- */
-.outer-container{
+.outer-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -55,7 +54,8 @@ body{
     /*align-items: center;
     padding: 2rem;*/
 }
-.inner-container{
+
+.inner-container {
     display: flex;
     flex-basis: 1200px;
     flex-direction: column;
@@ -71,21 +71,20 @@ body{
 /* ------------------------------- 4. Areas ---------------------------------------- */
 
 /* --------------- 4.1 Header ------------------------- */
-.nav-section{
+.nav-section {
     background-color: #4B49E8;
 
 }
 
-.nav-inner{
+.nav-inner {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     font-family: 'Roboto', sans-serif;
     color: white;
-
 }
 
-.navbuttons{
+.navbuttons {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -94,33 +93,35 @@ body{
     list-style: none;
     gap: 30px;
     height: 50px;
-
-
+    margin: 0 20px 0 0;
 }
 
-.header-section{
+.header-section {
     background-color: #4B49E8;
     color: white;
 }
-.header-sectionin{
+
+.header-sectionin {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px
 }
-.header-sectionin h1{
+
+.header-sectionin h1 {
     font-weight: 400;
     text-align: center;
     margin-bottom: 20px;
 }
-.header-sectionin h3{
+
+.header-sectionin h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.header-sectionin button{
+.header-sectionin button {
     background-color: var(--color-pink);
     color: white;
     border: none;
@@ -132,32 +133,63 @@ body{
     font-weight: 400;
 }
 
-.header-img{
+.header-img {
     background-color: #4B49E8;
 }
-.header-imgin{
+
+.header-imgin {
     background-color: #4B49E8;
 }
-.header-imgin img{
+
+.header-imgin img {
     width: 50px;
     height: auto;
     margin: 30px 0px -20px 0;
 }
-
-
-
 /* --------------- 4.2 Introduction ------------------- */
+
+.section-1in p{
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #5722CD;
+}
+.innerinner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 300px;
+    max-width: 550px;
+    gap: 10px;
+}
+.par4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    margin: 0 0 70px 0;
+}
+.par4 a{
+    color: #5722CD;
+    text-decoration: none;
+}
+
 /* --------------- 4.2 Main ------------------- */
-.section-1{
+.section-1 {
 
 }
-.section-2{
+
+.section-2 {
     background-color: var(--color-lightgray);
 }
-.section-3{
+
+.section-3 {
     background-color: var(--color-lightgray);
 }
-.section-4{
+
+.section-4 {
     background-color: var(--color-lightgray);
 }
+
 /* ------------------------------- 5. Media Queries -------------------------------- */

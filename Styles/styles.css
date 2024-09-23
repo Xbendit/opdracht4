@@ -15,22 +15,30 @@
     5. Media Queries
 ////////////////////////*/
 
-/*
-KLEUREN PALLET
-Paars #5722CD;
-Blauw #4845E4;
-Roze #ED4385;
-Zwart #0C0C0C (voor standaard tekst);
-Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services")
-Uitzonderingen:
-Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)
-Grijs #7A7A7A (voor de service-tegel tekst);*/
+:root{
+    /* Colors */
+    --color-purple: #5722CD;
+    --color-blue: #4845E4;
+    --color-pink: #ED4385;
+    --color-black: #0C0C0C;
+    --color-white: #F2F0FF;
+    --color-lightgray: #F3F6F9;
+    --color-gray: #7A7A7A;
+}
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 16px;
+    color: var(--color-black);
+}
+
+
 
 /* ------------------------------- 1. Global Styles -------------------------------- */
 
@@ -39,13 +47,117 @@ Grijs #7A7A7A (voor de service-tegel tekst);*/
 /* ------------------------------- 3. Layout --------------------------------------- */
 
 /* --------------- 3.1 Reusables ----------------------- */
+.outer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px blue dashed;
+    /*align-items: center;
+    padding: 2rem;*/
+}
+.inner-container{
+    display: flex;
+    flex-basis: 1200px;
+    flex-direction: column;
+    justify-content: center;
+    border: dashed red 2px;
+    align-items: center;
+
+
+}
 
 /* --------------- 3.2 Other --------------------------- */
 
 /* ------------------------------- 4. Areas ---------------------------------------- */
 
 /* --------------- 4.1 Header ------------------------- */
+.nav-section{
+    background-color: #4B49E8;
+
+}
+
+.nav-inner{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+.navbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    gap: 30px;
+    height: 50px;
+
+
+}
+
+.header-section{
+    background-color: #4B49E8;
+    color: white;
+}
+.header-sectionin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px
+}
+.header-sectionin h1{
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header-sectionin h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-sectionin button{
+    background-color: var(--color-pink);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 10px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.header-img{
+    background-color: #4B49E8;
+}
+.header-imgin{
+    background-color: #4B49E8;
+}
+.header-imgin img{
+    width: 50px;
+    height: auto;
+    margin: 30px 0px -20px 0;
+}
+
+
 
 /* --------------- 4.2 Introduction ------------------- */
+/* --------------- 4.2 Main ------------------- */
+.section-1{
 
+}
+.section-2{
+    background-color: var(--color-lightgray);
+}
+.section-3{
+    background-color: var(--color-lightgray);
+}
+.section-4{
+    background-color: var(--color-lightgray);
+}
 /* ------------------------------- 5. Media Queries -------------------------------- */

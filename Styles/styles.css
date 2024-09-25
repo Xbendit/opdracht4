@@ -63,7 +63,6 @@ body {
     border: dashed red 2px;
     align-items: center;
 
-
 }
 
 /* --------------- 3.2 Other --------------------------- */
@@ -374,3 +373,136 @@ body {
     border: dashed green 4px;
 }
 /* ------------------------------- 5. Media Queries -------------------------------- */
+.section-5in{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 70px 100px;
+}
+
+/*
+Reusible box*/
+
+/*.inner-container section-5in {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.inner-container5 {
+    display: flex;
+    flex-basis: 1000px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+   /* border: dashed red 2px;*/
+    align-items: center;
+
+}
+
+.outersec5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    /*margin: 0 10px 0 0;*/
+    border: 1px solid var(--color-purple);
+    box-shadow: lightgray 0px 30px 10px -15px;
+}
+.innersec5{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 200px;
+    width: 200px;
+   /* margin: 0 0 0 20px;*/
+/*    border: 2px dashed red;*/
+}
+
+/*----------*/
+
+.innersec5 img{
+    width: 70px;
+    height: auto;
+    margin: 0 0 10px 0;
+}
+.innersec5 h3 {
+    font-size: 15px;
+    color: var(--color-purple);
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
+.innersec5 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    color: black;
+    margin: 0 0 20px 0;
+}
+
+/*FORMULIER*/
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--color-blue);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.form-in{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 100px;
+    max-width: 800px;
+    height: auto;
+}
+
+.form-in h1{
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+.form-in h4{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+}
+
+.form-in label{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
+
+.form-in button{
+    background-color: var(--color-pink);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 25px;
+    font-size: 10px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/*FOOTER*/
+footer{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: var(--color-black);
+    color: white;
+    padding: 20px 0;
+    height: 50px;
+    width: auto;
+    font-size: 12px;
+}

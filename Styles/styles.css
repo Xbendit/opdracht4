@@ -180,16 +180,197 @@ body {
 
 }
 
+/*Section 2 Rollingstone*/
 .section-2 {
     background-color: var(--color-lightgray);
 }
+.section-2in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 50px;
+}
 
+.rolling{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    width: 500px;
+    margin: 0 20px 0 0;
+    border: 2px dashed orange;
+    box-shadow: lightgray 0px 30px 10px -15px;
+}
+
+.section-2 h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+.line {
+    width: 40px;
+    height: auto;
+    margin: 0 0 20px 0;
+}
+
+.section-2 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    margin: 0 0 20px 0;
+}
+
+.section-2 button{
+    background-color: transparent;
+    color: var(--color-purple);
+    border: 1px solid blue;
+    height: auto;
+    width: 90px;
+    margin: 0 0 0 -4px;
+    font-size: 10px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.rollingtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 0 0 20px;
+    flex-basis: 250px;
+    border: dashed green 4px;
+}
+
+
+
+
+
+/*Section 3 Variety*/
 .section-3 {
     background-color: var(--color-lightgray);
 }
 
+.section-3in{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 50px 50px;
+}
+
+.variety{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    width: 500px;
+    margin: 0 0 0 20px;
+    border: 2px dashed orange;
+    box-shadow: lightgray 0px 30px 10px -15px;
+}
+
+.section-3 h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+.line {
+    width: 40px;
+    height: auto;
+    margin: 0 0 20px 0;
+}
+
+.section-3 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    margin: 0 0 20px 0;
+}
+
+.section-3 button{
+    background-color: transparent;
+    color: var(--color-purple);
+    border: 1px solid blue;
+    height: auto;
+    width: 90px;
+    margin: 0 0 0 -4px;
+    font-size: 10px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.verietytext{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 20px 0 0;
+    flex-basis: 250px;
+    border: dashed green 4px;
+}
+
+/*Section 4 Worth*/
 .section-4 {
     background-color: var(--color-lightgray);
 }
+.section-4in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 50px;
+}
 
+.worth{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    width: 500px;
+    margin: 0 0 0 20px;
+    border: 2px dashed orange;
+    box-shadow: lightgray 0px 30px 10px -15px;
+}
+
+.section-4 h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+.line {
+    width: 40px;
+    height: auto;
+    margin: 0 0 20px 0;
+}
+
+.section-4 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    margin: 0 0 20px 0;
+}
+
+.section-4 button{
+    background-color: transparent;
+    color: var(--color-purple);
+    border: 1px solid blue;
+    height: auto;
+    width: 90px;
+    margin: 0 0 0 -4px;
+    font-size: 10px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.worthtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 20px 0 0;
+    flex-basis: 250px;
+    border: dashed green 4px;
+}
 /* ------------------------------- 5. Media Queries -------------------------------- */

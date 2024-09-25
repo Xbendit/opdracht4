@@ -50,7 +50,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 2px blue dashed;
+    /*border: 2px blue dashed;*/
     /*align-items: center;
     padding: 2rem;*/
 }
@@ -60,7 +60,7 @@ body {
     flex-basis: 1200px;
     flex-direction: column;
     justify-content: center;
-    border: dashed red 2px;
+  /*  border: dashed red 2px;*/
     align-items: center;
 
 }
@@ -197,7 +197,7 @@ body {
     height: auto;
     width: 500px;
     margin: 0 20px 0 0;
-    border: 2px dashed orange;
+   /* border: 2px dashed orange;*/
     box-shadow: lightgray 0px 30px 10px -15px;
 }
 
@@ -223,7 +223,7 @@ body {
 .section-2 button{
     background-color: transparent;
     color: var(--color-purple);
-    border: 1px solid blue;
+   /* border: 1px solid blue;*/
     height: auto;
     width: 90px;
     margin: 0 0 0 -4px;
@@ -232,6 +232,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
+    border:none;
 }
 .rollingtext{
     display: flex;
@@ -239,12 +240,8 @@ body {
     justify-content: flex-end;
     margin: 0 0 0 20px;
     flex-basis: 250px;
-    border: dashed green 4px;
+    /*border: dashed green 4px;*/
 }
-
-
-
-
 
 /*Section 3 Variety*/
 .section-3 {
@@ -265,7 +262,7 @@ body {
     height: auto;
     width: 500px;
     margin: 0 0 0 20px;
-    border: 2px dashed orange;
+ /*   border: 2px dashed orange;*/
     box-shadow: lightgray 0px 30px 10px -15px;
 }
 
@@ -291,7 +288,7 @@ body {
 .section-3 button{
     background-color: transparent;
     color: var(--color-purple);
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     height: auto;
     width: 90px;
     margin: 0 0 0 -4px;
@@ -300,6 +297,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
+    border:none;
 }
 .verietytext{
     display: flex;
@@ -307,7 +305,7 @@ body {
     justify-content: flex-end;
     margin: 0 20px 0 0;
     flex-basis: 250px;
-    border: dashed green 4px;
+   /* border: dashed green 4px;*/
 }
 
 /*Section 4 Worth*/
@@ -328,7 +326,7 @@ body {
     height: auto;
     width: 500px;
     margin: 0 0 0 20px;
-    border: 2px dashed orange;
+  /*  border: 2px dashed orange;*/
     box-shadow: lightgray 0px 30px 10px -15px;
 }
 
@@ -354,7 +352,7 @@ body {
 .section-4 button{
     background-color: transparent;
     color: var(--color-purple);
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     height: auto;
     width: 90px;
     margin: 0 0 0 -4px;
@@ -363,6 +361,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
+    border:none;
 }
 .worthtext{
     display: flex;
@@ -370,7 +369,7 @@ body {
     justify-content: flex-end;
     margin: 0 20px 0 0;
     flex-basis: 250px;
-    border: dashed green 4px;
+    /*border: dashed green 4px;*/
 }
 
 
@@ -400,7 +399,7 @@ Reusible box*/
     flex-direction: row;
     justify-content: center;
     gap: 30px;
-    border: dashed red 2px;
+   /* border: dashed red 2px;*/
     align-items: center;
 
 }
@@ -533,4 +532,43 @@ footer{
 
 /* ------------------------------- 5. Media Queries -------------------------------- */
 
+@media screen and (max-width: 576px){
+    .section-2in{
+        flex-direction: column-reverse;
+    }
+    .section-3in{
+        flex-direction: column-reverse;
+    }
+    .section-4in{
+        flex-direction: column-reverse;
+    }
+    .rollingtext{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 0;
+    }
+    .verietytext{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 0;
+    }
+    .worthtext{
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin: 0 0 0 0;
+     }
+
+    .rolling{
+        margin: 0 0 20px 0;
+    }
+    .variety{
+        margin: 0 0 20px 0;
+    }
+    .worth{
+        margin: 0 0 20px 0;
+    }
+}
 

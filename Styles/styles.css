@@ -372,7 +372,10 @@ body {
     flex-basis: 250px;
     border: dashed green 4px;
 }
-/* ------------------------------- 5. Media Queries -------------------------------- */
+
+
+/*SECTION 5*/
+
 .section-5in{
     display: flex;
     flex-direction: row;
@@ -397,7 +400,7 @@ Reusible box*/
     flex-direction: row;
     justify-content: center;
     gap: 30px;
-   /* border: dashed red 2px;*/
+    border: dashed red 2px;
     align-items: center;
 
 }
@@ -457,10 +460,8 @@ Reusible box*/
 .form-in{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin: 100px;
-    max-width: 800px;
-    height: auto;
+    align-items: center;
+    margin: 50px;
 }
 
 .form-in h1{
@@ -468,7 +469,7 @@ Reusible box*/
     text-align: center;
     font-size: 40px;
     font-weight: 400;
-    margin: 0 0 20px 0;
+    margin: 50px 0 20px 0;
 }
 
 .form-in h4{
@@ -488,12 +489,35 @@ Reusible box*/
     color: white;
     border: none;
     padding: 15px 40px;
+    margin: 20px;
     border-radius: 25px;
     font-size: 10px;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    align-content: center;
 }
+
+fieldset{
+    border: none;
+    margin: 0 0 20px 0;
+    width: 800px;
+    height: auto;
+}
+input{
+    font-size: 12px;
+    padding: 10px 10px;
+    height: 50px;
+    width: 100%;
+}
+textarea{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 10px 10px;
+    height: 100px;
+    width: 100%;
+}
+
 
 /*FOOTER*/
 footer{
@@ -506,3 +530,7 @@ footer{
     width: auto;
     font-size: 12px;
 }
+
+/* ------------------------------- 5. Media Queries -------------------------------- */
+
+
